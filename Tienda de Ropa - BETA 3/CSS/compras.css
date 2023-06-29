@@ -1,0 +1,92 @@
+#botonBajar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: #555;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+#botonBajar:hover {
+    background-color: #777;
+}
+.cajaCompras {
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+    padding-bottom: 7px;
+    padding-top: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+  
+#tituloHistorial {
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+  
+.titulo hr {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-top: 2px solid rgb(255, 190, 70);
+    display: none;
+}
+  
+.cajaPrenda, .cajaStock{
+    background-color: white;
+    display: flex;
+    border-bottom: 8px solid #1f1f1f;
+}
+
+.cajaPrenda:hover{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.cajaPrenda:hover .prendaInfo h4,
+.cajaPrenda:hover .prendaInfo h3,
+.cajaPrenda:hover .prendaInfo h2{
+    color: white;
+}
+.cajaPrenda:hover a{
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+}
+.cajaPrenda:hover .prendaIMG{
+    height: 280px;
+    width: 40%;
+}
+
+.prendaInfo {
+    padding: 12px;
+    width: 70%;
+}
+
+.prendaInfo h4, 
+.prendaInfo h3 {
+    font-family: monospace;
+}
+  
+.prendaInfo h2 {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.prendaIMG {
+    width: 30%;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-left: 1px solid rgb(221, 221, 221);
+}
