@@ -1,0 +1,87 @@
+
+
+.subirPrenda{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    box-sizing: border-box;
+    margin: auto;
+    width: 60%;
+}
+.titulo{
+    width: 25%;
+    border-right: #1f1f1f solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.titulo h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.formSubir{
+    width: 75%;
+    padding: 5px;
+    box-sizing: border-box;
+    display: block;
+}
+.formSubir input, textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    resize: none;
+    outline: none;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.formSubir input,
+.formSubir select{
+    height: 35px;
+}
+.formSubir select{
+    margin-left: 8px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.formSubir input:hover, textarea:hover{
+    background-color: #cccccc;
+}
+
+.caja-form1, .caja-form2, .cajaPrecio{
+    display: flex;
+    align-items: center;
+}
+.cajaPrecio{
+    padding-left: 15px;
+}
+.cajaPrecio h3{
+    font-size: 20px;
+    color: rgb(5, 156, 0);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#descripcion{
+    width: 100%;
+    height: 120px;
+}
+#stock{
+    width: 20%;
+    margin-right: 10px;
+}
+#precio{
+    color: rgb(5, 156, 0);
+    padding-left: 2px;
+}
+#enviar{
+    background-color: #1f1f1f;
+    border: none;
+    color: white;
+}
+#enviar:hover{
+    background-color: #cccccc;
+    color: black;
+}
