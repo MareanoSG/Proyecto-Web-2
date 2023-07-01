@@ -1,0 +1,253 @@
+
+*{
+   margin:0; 
+   padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   font-family: 'Poppins';
+}
+body{
+   background-color: #1f1f1f;
+}
+header nav{
+   display: flex;
+   justify-content: space-between;
+   width: 30%;
+   margin: auto;
+   background: rgb(255,255,255);
+   background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.27494747899159666) 50%, rgba(255,255,255,0) 100%);
+}
+header nav a{
+   color: #ffbe46;
+   transition: 0.2s color ease-in-out;
+   margin: 0;
+   font-family: 'Poppins';
+}
+header nav a:hover{
+   color: white;
+   text-decoration: underline;
+   transition: 0.2s;
+}
+.contenedor{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+}
+
+.contenedor .contenido{
+   text-align: center;
+}
+
+.contenedor .contenido h3{
+   font-size: 30px;
+   color:white;
+}
+
+.contenedor .contenido h3 span{
+   background: #ffbe46;
+   color: white;
+   border-radius: 5px;
+   padding:0 15px;
+}
+
+.contenedor .contenido h1{
+   font-size: 50px;
+   color:white;
+}
+
+.contenedor .contenido h1 span{
+   color: #ffbe46;
+}
+
+.contenedor .contenido p{
+   font-size: 25px;
+   margin-bottom: 20px;
+   color: white;
+}
+
+.contenedor .contenido .btn{
+   display: inline-block;
+   padding:10px 30px;
+   font-size: 20px;
+   background: #ffffff;
+   color: #1f1f1f;
+   margin:0 5px;
+   text-transform: capitalize;
+}
+
+.contenedor .contenido .btn:hover{
+   background: #ffbe46;
+}
+.titulo{
+   display: flex;
+   padding: 15px;
+   padding-left: 15px;
+   border-bottom: 1px solid #5e5e5e;
+   padding-bottom: 15px;
+   
+}
+.titulo h1{
+   font-size: 25px;
+   padding: 5px;
+   color: #ffbe46;
+}
+
+
+/*
+   Pagina principal
+*/
+.casi-slider{ 
+   color: #fff;
+   width: 90%;
+   margin: auto;
+}
+.casi-slider div{
+   position: absolute;
+   top: 220px;
+   left: 120px;
+   font-size: 20px;
+   text-shadow: 2px 0px 4px black;
+
+}
+.casi-slider h2{
+   margin-bottom: 10px;
+   text-align: center;
+}
+.redirigir {
+   position: absolute;
+   top: 32px;
+   left: 32px;
+   z-index: 1;
+   font-size: larger;
+ }
+ /*
+ .casi-slider{
+   display: flex;
+   width: 90%;
+ }
+ */
+.casi-slider a{
+   width: 50%;
+}
+.casi-slider video{
+   z-index: 0;
+   width: 100%;
+   margin: auto;
+   display: block;
+   justify-content: center;
+   margin-bottom: 20px;
+   border-radius: 10px;
+}
+
+.catalogoGeneral{
+   width: 90%;
+   margin: auto;
+   margin-bottom: 20px;
+   display: block;
+}
+.filaPrendas{
+   display: flex;
+   width: 100%;
+}
+.prenda{
+   background-color: white;
+   width: 16.667%;
+   height: 320px;
+   margin: 2px;
+   padding: 10px;
+}
+.prenda .imgPrenda{
+   height: 70%;
+   background-size: cover;
+   background-position: center;
+   transition: 0.1s transform ease-in-out, 0.1s box-shadow ease-in-out;
+}
+.prenda .imgPrenda:hover{
+   transform: scale(1.5);
+   box-shadow: 0px 0px 5px black;
+   transition: 0.1s;
+}
+.prenda .detallePrenda{
+   background-color: #cecfd2;
+   height: 30%;
+   padding: 8px;
+}
+.prenda .detallePrenda h2{
+   font-size: 16px;
+   line-height: 20px;
+   color: rgb(37, 37, 37);
+}
+.prenda .detallePrenda h3{
+   font-size: 16px;
+   color: rgb(41, 182, 36);
+}
+.prenda .detallePrenda h4{
+   display: none;
+   font-size: 12px;
+   color: rgb(24, 24, 24);
+}
+
+.img-onvre-mujer{
+   position: relative;
+   width: 70%;
+   margin: auto;
+}
+.img-onvre-mujer a{
+   width: 50%;
+}
+.img-onvre-mujer .onvre,
+.img-onvre-mujer .mujer{
+   position: relative;
+   float: right;
+   width: 50%;
+   height: 640px;
+   display: flex;
+   justify-content: center;
+   padding-right: 20px;
+   padding-bottom: 20px;
+   z-index: 0;
+   transition: transform .2s;
+}
+.img-onvre-mujer .mujer{
+   float: left;
+}
+.onvre h2, .mujer h2{
+   font-size: 24px;
+   color: #5e5e5e;
+   padding-left: 50px;
+}
+.mujer:hover{
+   transform: scale(1.05);
+
+}
+.onvre:hover{
+   transform: scale(1.05);
+}
+.cajaProducto{
+   position: fixed;
+   display: flex;
+   width: 100vw;
+   height: 100vh;
+   background-color: rgba(27, 27, 27, 0.568);
+   align-items: center;
+}
+.cajaProducto .infoProducto{
+   background-color: white;
+   width: 70vw;
+   height: 70vh;
+   margin: auto;
+   box-shadow: 0px 0px 15px black;
+   border-radius: 4px;
+   display: flex;
+}
+.cajaProducto .infoProducto .cajaProducto_img{
+   background-image: url('IMG/guantes.jpg');
+   background-size: cover;
+   background-position: center;
+   width: 60%;
+   height: 100%;
+}
